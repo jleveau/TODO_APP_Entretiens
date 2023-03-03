@@ -6,7 +6,9 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "docker:build": "docker build -t exerciceentretien .",
+    "docker:run": "docker run -p 3000:3000 exerciceentretien"
   },
   "author": "",
   "license": "ISC",
