@@ -1,4 +1,4 @@
-# Exercice TODO APP with Typescript and Nodejs
+# Programming Exercise -TODO APP with Typescript and Nodejs
 
 This project is a TypeScript / Node.js exercise designed to test the candidate's ability to implement the necessary routes for a TODO app using Node.js and Express.
 Prerequisites
