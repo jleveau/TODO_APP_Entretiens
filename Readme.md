@@ -12,6 +12,9 @@ To get started with this project, you need to follow these steps:
     Install the dependencies by running the command npm install.
     Launch the tests by running the command npm test.
     Implement the missing routes in src/routes/todo.ts to make the tests pass.
+    Update the Dockerfile to build a Docker image of your application.
+    Build the Docker image by running the command npm run docker:build.
+    Run the Docker image by running the command npm run docker:run.
 
 Scripts
 
@@ -19,4 +22,6 @@ This project comes with the following npm scripts:
 
     npm start: Starts the application using ts-node.
     npm test: Runs the tests using Jest.
+    npm docker:build : Builds the docker image.
+    npm docker:run : Runs the docker image.
 
